@@ -1,0 +1,86 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+ 
+header {
+    background-color: rgb(107, 41, 41);
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  .item {
+    margin-bottom: 10px;
+  }
+
+  .item strong {
+    font-weight: bold;
+  }
+
+  .dados-pessoais-conteudo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .educacao-conteudo,
+  .experiência-conteudo,
+  .habilidades-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .item li {
+    margin-bottom: 0;
+  }
+
+  .nome,
+  .endereco,
+  .telefone,
+  .email,
+  .graduacao,
+  .mestrado,
+  .cargo,
+  .habilidades-lista {
+    color: rgb(240, 231, 231);
+  }
+
+  .dados-pessoais {
+    background-color: rgb(109, 11, 11);
+  }
+
+  .educacao {
+    background-color: rgb(121, 6, 6);
+  }
+
+  .experiência {
+    background-color: rgba(100, 3, 3, 0.884);
+  }
+
+  .habilidades {
+    background-color: rgba(131, 10, 10, 0.788);
+  }
+
+  .footer {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
